@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="../looks/weebmeter.css">
+    <title>0-25 Result</title>
+</head>
+<body>
+
+<div id="output"></div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var nValue = sessionStorage.getItem('nValue');
+        var outputDiv = document.getElementById("output");
+        if (outputDiv && nValue) {
+            outputDiv.innerHTML = "Your weeb percentage is: " + nValue + "%";
+        }
+    });
+</script>
+<p id="paragraph">Alright, you lot! I can't believe you're all still so ignorant about anime. It's not just some 'childish cartoon'—it's an entire world of art, culture, and storytelling.<br />
+    By dismissing it, you're missing out on some of the greatest tales ever told. It's high time you all get cultured and stop living under a rock.</p>
+
+</body>
+</html>

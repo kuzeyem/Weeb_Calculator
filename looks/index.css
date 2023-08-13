@@ -1,0 +1,20 @@
+#link{
+    color:rgb(15, 155, 187);
+    font-weight:bold;
+    font-size:30px;
+    font-family:sans-serif;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    height: 80vh; 
+}
+html{
+    background:rgb(133, 30, 193);
+}
+h1{
+    font-size:100px;
+    color:rgb(14, 226, 219);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}

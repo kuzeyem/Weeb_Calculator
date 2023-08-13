@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="../looks/weebmeter.css">
+    <title>0-25 Result</title>
+</head>
+<body>
+
+<div id="output"></div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var nValue = sessionStorage.getItem('nValue');
+        var outputDiv = document.getElementById("output");
+        if (outputDiv && nValue) {
+            outputDiv.innerHTML = "Your weeb percentage is: " + nValue + "%";
+        }
+    });
+</script>
+<p id="paragraph">Hey everyone!<br />I've heard some of you are dipping your toes into the anime world. Trust me, you're in for an epic journey.<br />There's a universe of stories, emotions, and adventures waiting for you all.<br />Dive in deeper, and you'll soon see why it's not just a genre, but a way of life for many.<br />Keep exploring, and you'll find gems that resonate with each one of you.<br />Let's embark on this anime adventure together!</p>
+
+</body>
+</html>

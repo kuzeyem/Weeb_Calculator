@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="../looks/weebmeter.css">
+    <title>0-25 Result</title>
+</head>
+<body>
+
+<div id="output"></div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var nValue = sessionStorage.getItem('nValue');
+        var outputDiv = document.getElementById("output");
+        if (outputDiv && nValue) {
+            outputDiv.innerHTML = "Your weeb percentage is: " + nValue + "%";
+        }
+    });
+</script>
+<p id="paragraph">Hey! I've got to hand it to you for giving anime a shot over the past year. 👏<br />But now, it's time to level up! If you're ready for an epic journey, dive into long-term animes like 'One Piece'. It's not just an anime, it's a lifetime adventure. Trust me, once you start sailing with the Straw Hat crew, there's no turning back.</p>
+
+</body>
+</html>

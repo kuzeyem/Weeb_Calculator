@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="../looks/weebmeter.css">
+    <title>0-25 Result</title>
+</head>
+<body>
+
+<div id="output"></div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var nValue = sessionStorage.getItem('nValue');
+        var outputDiv = document.getElementById("output");
+        if (outputDiv && nValue) {
+            outputDiv.innerHTML = "Your weeb percentage is: " + nValue + "%";
+        }
+    });
+</script>
+<p id="paragraph">Whoa! From anime novices to the ultimate anime gods? 🌟<br />I bow to your dedication and expertise. You've journeyed through the vast world of anime and conquered it all. From short series to epics like 'One Piece', you've seen it all. Truly, you've ascended to a realm few dare to tread. All hail the Anime Deities!</p>
+
+</body>
+</html>

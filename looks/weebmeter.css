@@ -1,0 +1,40 @@
+#output{
+    color:rgb(133, 57, 164);
+    font-weight:bold;
+    font-size:30px;
+    font-family:sans-serif;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    height: 80px; 
+}
+html{
+    background:rgb(16, 156, 183, 1);
+}
+#link{
+    color:rgb(17, 144, 102);
+    font-weight:bold;
+    font-size:15px;
+    font-family:sans-serif;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    height: 1px; 
+}
+#a1{
+    color:rgb(111, 29, 170);
+    font-weight:bold;
+    font-size:30px;
+    font-family:sans-serif;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    height: 80px; 
+}
+#paragraph {
+    text-align: center;
+    display:flex;
+    justify-content:center;
+    height: 20vh;
+    
+}
